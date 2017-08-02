@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+* {
+	font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  color: $heading-color;
+}
+
+h2 {
+  color: $heading-color;
+  font-size: 2.5em;
+}
+
+h3{
+  color: $heading-color;
+  font-size: 2em;
+}
+
+.text {
+	p {
+    color: $text-color;
+	}
+}
+
+a {
+  color: $link-color;
+    &:hover, &:link, &:active, &:visited {
+        color: $link-color;
+        text-decoration: none;
+    }
+}
