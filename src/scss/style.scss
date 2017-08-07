@@ -1,0 +1,21 @@
+/* Mixins */
+
+/* modules */
+@import "modules/colors";
+@import "modules/typo";
+@import "modules/layout";
+
+/* Partials */
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/navigation';
+
+/* sections */
+@import 'sections/home';
+@import 'sections/about';
+@import 'sections/experience';
+@import 'sections/flex-section';
+@import 'sections/contact';
+
+/* Vendor */
+@import 'vendor/normalize';

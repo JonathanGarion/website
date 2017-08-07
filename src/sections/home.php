@@ -1,6 +1,6 @@
 <section class="home">
   <h1 class="home__heading">
-    Jonathan Kerkhoven
+    Jonathan
   </h1>
-  <h2>Junior Front-End Developer</h2>
+  <h2>Front-End Developer</h2>
 </section>
