@@ -1,12 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
 * {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, .title {
+	font-family: 'share tech mono', monospace;
 }
 
 h1 {
   color: $heading-color;
   text-transform: uppercase;
+  font-size: 9.4rem;
 }
 
 h2 {

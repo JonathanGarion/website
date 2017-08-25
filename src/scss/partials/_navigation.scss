@@ -1,13 +1,22 @@
 .navigation {
+	display: flex;
 
 	&__list {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 20px 0 0 0;
+		display: flex;
+		align-items: center;
+		padding: 20px;
 	}
 
 	&__item {
-	list-style-type: none;
+		padding: 20px;
+		list-style-type: none;
+		font-size: 1.5rem;
+		color: $text-color;
+		cursor: pointer;
+
+		&:hover {
+			color: $pink;
+		}
 	}
 }
+
