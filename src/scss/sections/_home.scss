@@ -1,14 +1,29 @@
 .home {
-	height: 100vh;
+	height: 125vh;
 	width: 100vw;
 	background-color: $secondary-color;
+	background: 
+		linear-gradient(
+			rgba(78, 78, 78, 0),
+			rgba(78, 78, 78, 1)95%
+		),
+		url("../img/backgrounds/jon_main_bg_s.jpg");
+	background-size: cover;
+	background-size: 115%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-end;
 	align-content: center;
 	text-align: center;
-
+	
 	&__heading {
-		font-size: 4em;
+		font-size: 9rem;
+		font-weight: normal;
+	}
+	.h1__span {
+		display: block;
+		color: $pink;
+		font-size: 2.5rem;
+		font-family: 'share tech mono', monospace;
 	}
 }

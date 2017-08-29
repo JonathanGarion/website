@@ -6,5 +6,6 @@ livereload({ start: true })
 
 gulp.task('watch', function() {
   livereload.listen();
-  gulp.watch('sass/*.sass', ['sass']);
+  gulp.watch('src/scss/*.scss', ['sass']);
+  gulp.watch('src/sections/*.php', ['html']);
 });

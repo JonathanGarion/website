@@ -10,20 +10,17 @@ h1, h2, h3, .title {
 }
 
 h1 {
-  color: $heading-color;
+  color: $white;
   text-transform: uppercase;
   font-size: 9.4rem;
 }
 
 h2 {
-  color: $heading-color;
-  font-size: 2.5em;
   text-transform: uppercase;
 }
 
-h3{
+h3 {
   color: $heading-color;
-  font-size: 2em;
 }
 
 .text {
