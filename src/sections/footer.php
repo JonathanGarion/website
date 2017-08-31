@@ -1,5 +1,6 @@
 <footer class="footer">
   <ul class="footer__list">
+  	<li class="footer__item footer__item--text">Let's Connect</li>
     <li class="footer__item">
       <a href="https://www.facebook.com/jonathan.kerkhoven">
         <div class="footer-facebook footer-item">

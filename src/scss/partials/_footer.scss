@@ -10,5 +10,10 @@
 	}
 	&__item {
 		margin: 0 20px 0 20px;
+
+		&--text {
+			align-self: flex-end;
+			padding: 0 0 3px 0;
+		}
 	}
 }

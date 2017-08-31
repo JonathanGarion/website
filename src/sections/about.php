@@ -2,19 +2,19 @@
 	<div class="about__skills">
 		<h2 class="about__skills__heading">skills</h2>
 		<ul class="about__skills__list">
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
+			<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
+			<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
+			<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
 		</ul>
 		<ul class="about__skills__list">
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
+		<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
+		<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
+		<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
 		</ul>
 		<ul class="about__skills__list">
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>
-			<li class="about__skills__list--item"><img src="build/img/skills/html.png" alt="html"></li>					
+		<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
+		<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>
+		<li class="about__skills__list--item"><i class="fa fa-html5"></i></li>				
 		</ul>
 	</div>
 	<div class="about__block">

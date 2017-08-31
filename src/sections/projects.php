@@ -1,18 +1,18 @@
 <section class="projects">
 	<div class="slider">
-		<img class="slider__button--left" src="#" alt="left">
-		<div class="slider__item">
+		<div class="slider__button slider__button--left"><i class="fa fa-angle-left"></i></div>
+		<div class="slider__item slider__item--left">
+			<h3 class="slider__item__title">project name</h3>
+		</div>
+		<div class="slider__item slider__item--center">
 			<h3 class="slider__item__title">project name</h3>
 			<button class="slider__item__button">view project</button>
 		</div>
-		<div class="slider__item">
+		<div class="slider__item slider__item--right">
 			<h3 class="slider__item__title">project name</h3>
-			<button class="slider__item__button">view project</button>
 		</div>
-		<div class="slider__item">
-			<h3 class="slider__item__title">project name</h3>
-			<button class="slider__item__button">view project</button>
-		</div>
-		<img class="slider__button--right" src="#" alt="right">
+		<div class="slider__button slider__button--right"><i class="fa fa-angle-right"></i></div>
 	</div>
 </section>
+
+
