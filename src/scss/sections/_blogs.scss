@@ -31,11 +31,13 @@
 		width: 85vw;
 		height: 85vh;
 		display: inline-flex;
+		overflow-x: visible;
 	}
 
 	&__wrapper {
 		width: 50%;
 		height: 100%;
+		overflow-x: visible;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -50,6 +52,7 @@
 	&__posts {
 		background-color: $white;
 		font-size: 1.2rem;
+		overflow-x: visible;
 		
 		h3 {
 			color: $pink;
@@ -59,6 +62,7 @@
 
 		&__wrapper {
 			padding: 20px 20px 20px 30px;
+			overflow-x: visible;
 
 			&--top {
 				height: 50%;
@@ -72,6 +76,8 @@
 			width: 170px;
 			height: 65px;
 			border: none;
+			float: right;
+			margin-right: -100px;
 			background-color: $charcoal;
 			color: $white;
 			font-family: 'share tech mono', monospace;

@@ -1,6 +1,7 @@
 .about {
 	background-color: $grey;
 	padding: 5%;
+	overflow-x: hidden;
 
 	&__skills {
 		position: absolute;
@@ -63,5 +64,6 @@
 		width: 100%;
 		text-align: justify;
 		text-justify: newspaper;
+		overflow-x: hidden;
 	}
 }
