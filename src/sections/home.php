@@ -1,8 +1,10 @@
 <section class="home">
 		<h1 class="home__heading">
-			Jonathan
-			<span class="h1__span">
-				Front-End Developer
-			</span>
+			Jonathan.
 		</h1>
+		<ul>
+			<li>about</li>
+			<li>projects</li>
+			<li>blogs</li>
+		</ul>
 </section>
