@@ -20,6 +20,9 @@
 
 <!-- load in on click of blog__list__item -->
 <section class="blog">
+	<div class="blog__close-corner">
+		<span class="blog__close-corner__button"></span>
+	</div>
 	<header class="blog__header">
 		<h3 class="blog__header__title">Choosing The Best Audio Player Software For Your Computer</h3>
 		<span class="blog__header__date">17-10-2017</span>
