@@ -1,13 +1,13 @@
 <?php require_once'build/sections/header.php'?>
 <section class="about-container">
-	<div class="about__header"> <!-- if sass breaks this is probably why -->
-		<img class="about__header__image" src="build/images/hoofd.jpg" alt="jonathan">
-		<h2 class="about__header__title">Nice to meet you!</h2>
+	<div class="about-header">
+		<img class="about-header__image" src="build/images/hoofd.jpg" alt="jonathan">
+		<h2 class="about-header__title">Nice to meet you!</h2>
 	</div>
 	<div class="about">
 		<section class="about__section">
 			<h3 class="about__title">my story</h3>
-			<p class="about__section__text">
+			<p class="about__text">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec elit
 				efficitur nibh pellentesque rhoncus. Sed condimentum hendrerit eleifend.
 				Mauris ut fermentum sapien. Curabitur ex odio, congue sodales tempus
@@ -23,23 +23,23 @@
 				ac, imperdiet efficitur turpis. Vivamus vitae fringilla ante. Suspendisse in
 			</p>
 		</section>
-		<aside class="about__aside">
-			<div class="about__aside__container">
-				<h3 class="about__title">skills</h3>
-				<ul class="about__skill-list">
-					<li class="about__skill-list__item">html</li>
-					<li class="about__skill-list__item">css</li>
-					<li class="about__skill-list__item">sass</li>
-					<li class="about__skill-list__item">javascript</li>
-					<li class="about__skill-list__item">grunt</li>
-					<li class="about__skill-list__item">gulp</li>
+		<aside class="aside">
+			<div class="aside__container">
+				<h3 class="aside__title">skills</h3>
+				<ul class="aside-list">
+					<li class="aside-list__item">html</li>
+					<li class="aside-list__item">css</li>
+					<li class="aside-list__item">sass</li>
+					<li class="aside-list__item">javascript</li>
+					<li class="aside-list__item">grunt</li>
+					<li class="aside-list__item">gulp</li>
 				</ul>
 			</div>
-			<div class="about__aside__container">
-				<h3 class="about__title">let's connect</h3>
-				<ul class="about__link-list">
-					<li class="about__link-list__item"><i class="fa fa-github"></i></li>
-					<li class="about__link-list__item"><i class="fa fa-linkedin-square"></i></li>
+			<div class="aside__container">
+				<h3 class="aside__title">let's connect</h3>
+				<ul class="aside-link-list">
+					<li class="aside-link-list__item"><i class="fa fa-github"></i></li>
+					<li class="aside-link-list__item"><i class="fa fa-linkedin-square"></i></li>
 				</ul>
 			</div>
 		</aside>

@@ -1,16 +1,16 @@
 <?php require_once'build/sections/header.php'?>
 <section class="projects">
 	<h2 class="projects__title">projects</h2>
-	<ul class="projects__grid">
-		<li class="projects__grid__item"><span class="grid-title">project 1</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 2</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 3</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 4</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 5</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 6</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 7</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 8</span></li>
-		<li class="projects__grid__item"><span class="grid-title">project 9</span></li>
+	<ul class="projects-grid">
+		<li class="projects-grid__item"><span class="projects-grid__title">project 1</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 2</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 3</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 4</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 5</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 6</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 7</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 8</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">project 9</span></li>
 	</ul>
 </section>
 <?php require_once'build/sections/navigation.php'?>
@@ -20,8 +20,8 @@
 <div class="project">
 	<header class="project__header">
 		<svg></svg>
-		<div class="project__close-corner">
-			<span class="project__close-corner__button"></span>
+		<div class="close-corner">
+			<span class="close-corner__button"></span>
 		</div>
 	</header>
 	<aside class="project__description">
@@ -45,12 +45,12 @@
 	</aside>
 	<aside class="project__skills">
 		<h3 class="project__title">used skills</h3>
-		<ul class="project__list">
-			<li class="project__list__item"></li>
-			<li class="project__list__item"></li>
-			<li class="project__list__item"></li>
-			<li class="project__list__item"></li>
-			<li class="project__list__item"></li>
+		<ul class="project-list">
+			<li class="project-list__item"></li>
+			<li class="project-list__item"></li>
+			<li class="project-list__item"></li>
+			<li class="project-list__item"></li>
+			<li class="project-list__item"></li>
 		</ul>
 	</aside>
 	<?php require_once'build/sections/navigation.php'?>

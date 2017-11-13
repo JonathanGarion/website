@@ -1,31 +1,31 @@
 <?php require_once'build/sections/header.php'?>
 <?php require_once'build/sections/header.php'?>
 <section class="blogs">
-	<div class="blogs__header">
-		<h2 class="blog__title">blogs</h2>
-		<input type="text" class="blog__search-bar" placeholder="Search blogs" name="search">
+	<div class="blogs-header">
+		<h2 class="blogs-header__title">blogs</h2>
+		<input type="text" class="blogs-header__search-bar" placeholder="Search blogs" name="search">
 	</div>
-	<ul class="blogs__list">
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-		<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+	<ul class="blogs-list">
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
 	</ul>
 </section>
 
 
-<!-- load in on click of blog__list__item -->
+<!-- load in on click of blog-list__item -->
 <section class="blog">
-	<div class="blog__close-corner">
-		<span class="blog__close-corner__button"></span>
+	<div class="close-corner">
+		<span class="close-corner__button"></span>
 	</div>
-	<header class="blog__header">
-		<h3 class="blog__header__title">Choosing The Best Audio Player Software For Your Computer</h3>
-		<span class="blog__header__date">17-10-2017</span>
+	<header class="blog-header">
+		<h3 class="blog-header__title">Choosing The Best Audio Player Software For Your Computer</h3>
+		<span class="blog-header__date">17-10-2017</span>
 	</header>
 	<article class="blog__article">
 		I’m not really sure how old I was when I got the gift for Christmas, but I remember thinking it was a pretty impressive
@@ -42,9 +42,9 @@
 	</article>
 	<footer class="blog__footer">
 		<span class="blog__readmore"></span>
-		<ul class="blogs__list">
-			<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
-			<li class="blogs__list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+		<ul class="blogs-list">
+			<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
+			<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
 		</ul>
 	</footer>
 </section>

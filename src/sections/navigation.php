@@ -1,9 +1,9 @@
 <nav class="navigation">
-	<ul class="navigation__list">
+	<ul class="menu"> <!--tofo -->
 		<li><i class="fa fa-arrow-up"></i></li>
-		<li class="navigation__list__item"></li>
-		<li class="navigation__list__item"></li>
-		<li class="navigation__list__item"></li>
+		<li class="menu__item"></li>
+		<li class="menu__item"></li>
+		<li class="menu__item"></li>
 		<li><i class="fa fa-arrow-down"></i></li>
 	</ul>
 </nav>
