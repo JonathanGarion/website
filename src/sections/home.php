@@ -1,6 +1,6 @@
 <section class="home">
 		<h1 class="home__heading">
-			Jonathan.
+			Jonathan<span class="dot">.</span>
 		</h1>
 		<ul class="home-list">
 			<li class="home-list__item">about</li>

@@ -9,13 +9,13 @@
 		<title>Jonathan Kerkhoven</title>
 	</head>
 	<body>
-		<div class=body__filter>
-			<?php require_once'build/sections/header.php'?>
+		<div class="body__filter">
 			<?php require_once'build/sections/home.php'?>
 			<?php require_once'build/sections/about.php'?>
 			<?php require_once'build/sections/projects.php'?>
 			<?php require_once'build/sections/blogs.php'?>
 			<?php require_once'build/sections/footer.php'?>
 		</div>
+		<script src="build/js/main.js"></script>
 	</body>
 </html>

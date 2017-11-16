@@ -1,0 +1,38 @@
+.home {
+	width: 100vw;
+	height: 100vh;
+	background-color: $pink;
+	@include flex-center;
+	flex-direction: column;
+
+	&__heading {
+		@include poppins;
+		color: $white;
+		font-size: 130px;
+		line-height: 213px;
+	}
+
+	.home-list {
+		display: flex;
+		flex-direction: row;
+
+		&__item {
+			@include flex-center;
+			height: 75px;
+			width: 205px;
+			color: $white;
+			@include pop-semi-bold;
+			font-size: 20px;
+			line-height: 32px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			border: 3px $white solid;
+			margin: 0 55px;
+
+			&:hover {
+				color: $pink;
+				background-color: $white;
+			}
+		}
+	}
+}

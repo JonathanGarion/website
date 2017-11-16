@@ -1,19 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
 
 * {
-	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3, .title {
-	font-family: 'share tech mono', monospace;
+	// font-family: 'Poppins', sans-serif;
+	// font-weight: 900;
 }
 
-h1 {
-  color: $white;
-  text-transform: uppercase;
-  font-size: 9.4rem;
-}
+// h1 {
+  //color: $white;
+  //text-transform: uppercase;
+  //font-size: 9.4rem;
+// }
 
 h2 {
   text-transform: uppercase;
@@ -21,6 +23,10 @@ h2 {
 
 h3 {
   color: $heading-color;
+}
+
+.dot {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .text {

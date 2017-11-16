@@ -1,0 +1,74 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	position: relative;
+
+	.emblem {
+		@include poppins;
+		font-size: 75px;
+		line-height: 123px;
+		color: $pink;
+		margin-left: 24px;
+
+		&:hover {
+			color: $grey;
+		}
+	}
+
+	&--close {
+		.header__corner {
+			background-color: $white;
+			color: $grey;
+			position: absolute;
+			transform: rotate(45deg);
+			height: 130px;
+			width: 130px;
+			top: -65px;
+			right: -65px;
+			display: flex;
+			align-items: flex-end;
+			justify-content: center;
+
+			&:hover {
+				color: $pink;
+			}
+		}
+
+		.header__close-button {
+			display: block;
+			position: relative;
+			height: 40px;
+			width: 35px;
+			margin: 0 0 8px;
+
+			&:before {
+				display: block;
+				position: absolute;
+				// transform: rotate(-45deg);
+				top: 50%;
+				height: 5px;
+				width: 35px;
+				content: "";
+				background-color: $grey;
+			}
+			&:after {
+				display: block;
+				position: absolute;
+				transform: rotate(-90deg);
+				top: 50%;
+				height: 5px;
+				width: 35px;
+				content: "";
+				background-color: $grey;
+			}
+
+			&:hover {
+				&:before, &:after {
+					background-color: $pink;
+				}
+			}
+		}
+	}
+}
