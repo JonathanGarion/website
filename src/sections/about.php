@@ -44,5 +44,5 @@
 			</div>
 		</aside>
 	</div>
+	<?php require_once'build/sections/navigation.php'?>
 </section>
-<?php require_once'build/sections/navigation.php'?>
