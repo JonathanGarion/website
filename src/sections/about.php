@@ -1,7 +1,7 @@
 <?php require_once'build/sections/header.php'?>
 <section class="about-container">
 	<div class="about-header">
-		<img class="about-header__image" src="build/images/hoofd.jpg" alt="jonathan">
+		<img class="about-header__image" src="build/img/backgrounds/hoofd.jpg" alt="jonathan">
 		<h2 class="about-header__title">Nice to meet you!</h2>
 	</div>
 	<div class="about">
@@ -27,18 +27,18 @@
 			<div class="aside__container">
 				<h3 class="aside__title">skills</h3>
 				<ul class="aside-list">
-					<li class="aside-list__item">html</li>
-					<li class="aside-list__item">css</li>
-					<li class="aside-list__item">sass</li>
-					<li class="aside-list__item">javascript</li>
-					<li class="aside-list__item">grunt</li>
-					<li class="aside-list__item">gulp</li>
+					<li class="aside-list__item">HTML</li>
+					<li class="aside-list__item">CSS</li>
+					<li class="aside-list__item">SASS</li>
+					<li class="aside-list__item">JavaScript</li>
+					<li class="aside-list__item">Grunt</li>
+					<li class="aside-list__item">Gulp</li>
 				</ul>
 			</div>
 			<div class="aside__container">
 				<h3 class="aside__title">let's connect</h3>
 				<ul class="aside-link-list">
-					<li class="aside-link-list__item"><i class="fa fa-github"></i></li>
+					<li class="aside-link-list__item"><i class="fa fa-github-alt"></i></li>
 					<li class="aside-link-list__item"><i class="fa fa-linkedin-square"></i></li>
 				</ul>
 			</div>

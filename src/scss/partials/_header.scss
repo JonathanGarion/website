@@ -4,6 +4,7 @@
 	align-items: flex-start;
 	width: 100%;
 	position: relative;
+	display: flex;
 
 	.emblem {
 		@include poppins;
@@ -11,6 +12,7 @@
 		line-height: 123px;
 		color: $pink;
 		margin-left: 24px;
+		cursor: default;
 
 		&:hover {
 			color: $grey;
@@ -46,7 +48,6 @@
 			&:before {
 				display: block;
 				position: absolute;
-				// transform: rotate(-45deg);
 				top: 50%;
 				height: 5px;
 				width: 35px;
