@@ -1,7 +1,7 @@
-<?php require_once'build/sections/header.php'?>
 <section class="about-container">
+	<?php require'build/sections/header.php'?>
 	<div class="about-header">
-		<img class="about-header__image" src="build/img/backgrounds/hoofd.jpg" alt="jonathan">
+		<img class="about-header__image" src="build/img/backgrounds/hoofd.png" alt="jonathan">
 		<h2 class="about-header__title">Nice to meet you!</h2>
 	</div>
 	<div class="about">
@@ -44,5 +44,5 @@
 			</div>
 		</aside>
 	</div>
-	<?php require_once'build/sections/navigation.php'?>
+	<?php require'build/sections/navigation.php'?>
 </section>

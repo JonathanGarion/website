@@ -1,6 +1,5 @@
-<?php require_once'build/sections/header.php'?>
-<?php require_once'build/sections/header.php'?>
 <section class="blogs">
+	<?php require'build/sections/header.php'?>
 	<div class="blogs-header">
 		<h2 class="blogs-header__title">blogs</h2>
 		<input type="text" class="blogs-header__search-bar" placeholder="Search blogs" name="search">
@@ -15,10 +14,11 @@
 		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
 		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
 	</ul>
+	<?php require'build/sections/navigation.php'?>
 </section>
 
 
-<!-- load in on click of blog-list__item -->
+load in on click of blog-list__item
 <section class="blog">
 	<div class="close-corner">
 		<span class="close-corner__button"></span>

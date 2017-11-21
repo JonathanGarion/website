@@ -1,19 +1,40 @@
-<?php require_once'build/sections/header.php'?>
 <section class="projects">
+	<?php require'build/sections/header.php'?>
 	<h2 class="projects__title">projects</h2>
 	<ul class="projects-grid">
-		<li class="projects-grid__item"><span class="projects-grid__title">project 1</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 2</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 3</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 4</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 5</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 6</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 7</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 8</span></li>
-		<li class="projects-grid__item"><span class="projects-grid__title">project 9</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">
+			Party Jokes Startling
+			 But Unnecessary
+		</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">
+			Party Jokes Startling
+ 			But Unnecessary
+		</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">
+			Party Jokes Startling
+			But Unnecessary
+		</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">
+			Where Can You Find
+			Unique Myspace
+			Layouts Nowadays
+		</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">
+			Where Can You Find
+			Unique Myspace
+			Layouts Nowadays
+		</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">
+			Where Can You Find
+			Unique Myspace
+			Layouts Nowadays
+		</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">Title of project</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">Title of project</span></li>
+		<li class="projects-grid__item"><span class="projects-grid__title">Title of project</span></li>
 	</ul>
+	<?php require'build/sections/navigation.php'?>
 </section>
-<?php require_once'build/sections/navigation.php'?>
 
 
 <!-- load in on click of grid__item -->
