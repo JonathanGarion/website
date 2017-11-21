@@ -1,4 +1,66 @@
 .navigation {
-
+	display: flex;
+	// position: absolute;
+	// right: 20px;
+	// top: 50%;
+	// transform: translateY(-50%);
+	margin: 20px;
 }
 
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+
+	&__arrow {
+		width: 1px;
+		height: 40px;
+		background-color: $grey;
+		margin: 8px 0;
+
+		&:before, &:after {
+			width: 1px;
+			height: 15px;
+			background-color: $grey;
+			content: "";
+			display: inline-block;
+			position: absolute;
+		}
+		&:before {
+			transform: translate(-5px, -3px) rotate(45deg) ;
+		}
+		&:after {
+			transform: translate(5px, -3px) rotate(-45deg) ;
+		}
+		&--down {
+			&:before {
+				transform: translate(-5px, 28px) rotate(-45deg) ;
+			}
+			&:after {
+				transform: translate(5px, 28px) rotate(45deg) ;
+			}
+		}
+	}
+	&__item {
+		width: 15px;
+		height: 15px;
+		border: solid 1px $grey;
+		border-radius: 50%;
+		margin: 8px 0;
+		overflow: hidden;
+		cursor: pointer;
+
+		&:hover {
+			border: solid 1px $pink;
+			background-color: $pink;
+		}
+		&--active {
+			width: 18px;
+			height: 18px;
+			border: solid 1px $pink;
+			background-color: $pink;
+
+		}
+	}
+}
