@@ -14,7 +14,9 @@
 		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
 		<li class="blogs-list__item"><span>very long title for a small list</span><div><i class="fa fa-plus"></i></div></li>
 	</ul>
-	<?php require'build/sections/navigation.php'?>
+	<nav class="navigation">
+		<?php require'build/sections/navigation.php'?>
+	</nav>
 </section>
 
 

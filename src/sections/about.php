@@ -44,5 +44,7 @@
 			</div>
 		</aside>
 	</div>
-	<?php require'build/sections/navigation.php'?>
+	<nav class="navigation">
+		<?php require'build/sections/navigation.php'?>
+	</nav>
 </section>

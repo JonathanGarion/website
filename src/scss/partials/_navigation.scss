@@ -5,6 +5,14 @@
 	transform: translateY(-50%);
 	right: 0;
 	margin: 40px;
+
+	&--bottom {
+		top: unset;
+		right: unset;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%) rotate(-90deg) ;
+	}
 }
 
 .menu {
