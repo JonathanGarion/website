@@ -1,5 +1,7 @@
 <section class="about-container">
-	<?php require'build/sections/header.php'?>
+	<header class="header">
+		<?php require'build/sections/header.php'?>
+	</header>
 	<div class="about-header">
 		<img class="about-header__image" src="build/img/backgrounds/hoofd.png" alt="jonathan">
 		<h2 class="about-header__title">Nice to meet you!</h2>

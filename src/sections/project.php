@@ -1,5 +1,7 @@
 <div class="project">
-	<?php require'build/sections/header.php'?>
+	<header class="header header--white header--close">
+		<?php require'build/sections/header.php'?>
+	</header>
 	<aside class="project__description">
 		<h3 class="project__title">title of the project</h3>
 		<p class="project__text">
@@ -22,14 +24,15 @@
 	<aside class="project__skills">
 		<h3 class="project__title">used skills</h3>
 		<ul class="project-list">
-			<li class="project-list__item">1</li>
-			<li class="project-list__item">2</li>
-			<li class="project-list__item">3</li>
-			<li class="project-list__item">4</li>
-			<li class="project-list__item">5</li>
+			<li class="project-list__item">HTML</li>
+			<li class="project-list__item">CSS</li>
+			<li class="project-list__item">Gulp</li>
+			<li class="project-list__item">Grunt</li>
+			<li class="project-list__item">JavaScript</li>
 		</ul>
 	</aside>
 	<nav class="navigation navigation--bottom">
 		<?php require'build/sections/navigation.php'?>
 	</nav>
+
 </div>

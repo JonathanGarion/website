@@ -19,6 +19,16 @@
 		}
 	}
 
+	&--white {
+		.emblem {
+			color: $white;
+			
+			&:hover {
+				color: $pink;
+			}
+		}
+	}
+
 	&--close {
 		.header__corner {
 			background-color: $white;

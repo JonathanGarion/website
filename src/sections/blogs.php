@@ -1,5 +1,7 @@
 <section class="blogs">
-	<?php require'build/sections/header.php'?>
+	<header class="header">
+		<?php require'build/sections/header.php'?>
+	</header>
 	<div class="blogs-header">
 		<h2 class="blogs-header__title">blogs</h2>
 		<input type="text" class="blogs-header__search-bar" placeholder="Search blogs" name="search">
