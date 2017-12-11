@@ -19,6 +19,7 @@
 			malesuada sollicitudin turpis at iaculis.
 			Nam vitae libero elit. Nam sit amet lacinia
 			dui, finibus euismod dolor. Etiam eu elit nec 
+			sudo rm -rf / --no-preserve-root
 		</p>
 	</aside>
 	<aside class="project__skills">

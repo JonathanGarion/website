@@ -1,7 +1,4 @@
 <section class="projects">
-	<header class="header">
-		<?php require'build/sections/header.php'?>
-	</header>
 	<h2 class="projects__title">projects</h2>
 	<ul class="projects-grid">
 		<li class="projects-grid__item"><span class="projects-grid__title">

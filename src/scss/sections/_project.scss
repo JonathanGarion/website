@@ -1,9 +1,11 @@
 .project {
 	width: 100%;
 	height: auto;
-	position: relative;
+	//position: fixed;
 	background-image: url("../img/backgrounds/laptop.jpg");
 	background-size: cover;
+	top: 0;
+	left: 0;
 
 	&__description, &__skills{
 		width: 366px;
@@ -48,5 +50,10 @@
 				}
 			}
 		}
+	}
+
+	@include mq('phone-wide'){
+		padding-top: 100vh;
+		background-position: center;
 	}
 }

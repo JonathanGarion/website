@@ -5,6 +5,7 @@
 	flex-direction: column;
 	position: relative;
 	padding: 0 0 70px;
+	//overflow-y: scroll;
 }
 
 .about-header {
@@ -48,6 +49,19 @@
 		font-size: 16px;
 		line-height: 23px;
 	}
+	
+	@include mq('phone-wide'){
+		flex-direction: column;
+		min-width: 0;
+
+		&__title {
+			padding-bottom: 5px;
+		}
+		&__section {
+			padding: 5px 5px 30px;
+			width: 100%;
+		}
+	}
 }
 .aside {
 	width: 20%;
@@ -59,6 +73,13 @@
 		text-transform: uppercase;
 		color: $grey;
 		padding-bottom: 20px;
+	}
+	@include mq('phone-wide'){
+		width: 100%;
+
+		&__title {
+			padding-bottom: 5px;
+		}
 	}
 }
 
@@ -99,5 +120,8 @@
 		&:hover {
 			color: $pink;
 		}
+	}
+	@include mq('phone-wide'){
+		padding: 10px 0 0;
 	}
 }

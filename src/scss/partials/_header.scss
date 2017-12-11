@@ -3,19 +3,27 @@
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 100%;
-	position: relative;
-	display: flex;
+	position: sticky;
+	overflow: hidden;
+    top: 0;
+    z-index: 1;
 
 	.emblem {
 		@include poppins;
 		font-size: 75px;
 		line-height: 123px;
+		user-select: none;
 		color: $pink;
 		margin-left: 24px;
 		cursor: default;
 
 		&:hover {
 			color: $grey;
+		}
+
+		@include mq('phone-wide'){
+			font-size: 45px;
+			line-height: 81px;
 		}
 	}
 
@@ -80,6 +88,9 @@
 					background-color: $pink;
 				}
 			}
+		}
+		@include mq('phone-wide'){
+			display: none;
 		}
 	}
 }

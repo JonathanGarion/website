@@ -2,5 +2,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow-x: hidden;
+	list-style-type: none;
+	//overflow-x: hidden;
 }
+html {
+	width: 100%;
+}
+body {
+	//overflow-y: hidden;
+	width: 100%;
+}
+
+$breakpoints: (
+	'phone-small': 350px,
+	'phone': 400px,
+	'phone-wide': 480px,
+	'phablet': 560px,
+	'tablet-small': 640px,
+	'tablet': 768px,
+	'tablet-wide': 1024px,
+	'desktop': 1248px,
+	'desktop-wide': 1440px
+);

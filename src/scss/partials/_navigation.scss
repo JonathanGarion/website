@@ -28,6 +28,10 @@
 			}
 		}
 	}
+
+	@include mq('phone-wide'){
+		display: none;
+	}
 }
 
 .menu {
