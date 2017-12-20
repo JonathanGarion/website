@@ -314,7 +314,7 @@
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
-		<div class="project project--closed">
+		<div class="project project--open">
 			<header class="header header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
