@@ -15,10 +15,14 @@
 html {
 	width: 100%;
 }
-body {
-	//overflow-y: hidden;
+.body {
 	width: 100%;
+	
+	&--noscroll {
+		overflow-y: hidden;
+	}
 }
+
 
 $breakpoints: (
 	'phone-small': 350px,

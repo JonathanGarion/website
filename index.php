@@ -8,7 +8,7 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="build/img/backgrounds/favicon-16x16.png">
 		<title>Jonathan Kerkhoven</title>
 	</head>
-	<body>
+	<body class="body">
 		<?php require_once'build/sections/home.php' ?>
 		<?php require'build/sections/header.php'?>
 		<?php require_once'build/sections/about.php' ?>
@@ -18,5 +18,6 @@
 		<?php /* require_once'build/sections/blogs.php' */ ?>
 		<?php require_once'build/sections/footer.php' ?>
 		<script src="build/js/main.js"></script>
+		<script src="build/js/project.js"></script>
 	</body>
 </html>
