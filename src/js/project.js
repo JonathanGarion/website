@@ -1,30 +1,36 @@
+"use strict";
+
 let project = () => {
 	let projectItem = document.querySelector('.project');
-	let projectButton = document.querySelector('.header__corner');
+	let projectButtons = document.getElementsByClassName('header__corner');
 	let body = document.querySelector('.body');
-	let navItem = document.querySelector('.menu__item');
-	console.log(projectButton);
+	let navItems = document.getElementsByClassName('menu__item');
 		
-	let toggleProject = () => {
-		if (projectItem.classList.contains('.project--open')) {
-			projectItem.classList.replace('.project--open', '.project--closed');
+	let toggleProject = (event) => {	
+		if (event.toElement.parentNode.parentNode.classList.contains('project--open')) {
+			event.toElement.parentNode.parentNode.classList.replace('project--open', 'project--closed');
+			body.classList.remove('body--noscroll');
+		} else if (event.toElement.parentNode.parentNode.classList.contains('project--closed')) {
+			event.toElement.parentNode.parentNode.classList.replace('project--closed', 'project--open');
+			body.classList.add('body--noscroll');
 		}
-		if (projectItem.classList.contains('.project--closed')) {
-			projectItem.classList.replace('.project--closed', '.project--open');
-		}
-		body.classList.toggle('.body--noscroll');	
-		console.log('after toggleProject');	
-	}
+	};
 	
-	let closeProject = () => {
+	let closeProject = (event) => {
 		console.log('closeProject');
-		if (projectItem.classList.contains('.project--open')) {
-			projectItem.classList.replace('.project--open', '.project--closed');
-			body.classList.remove('.body--noscroll');		
+		if (event.toElement.parentNode.parentNode.parentNode.classList.contains('project--open')) {
+			event.toElement.parentNode.parentNode.parentNode.classList.replace('project--open', 'project--closed');
+			body.classList.remove('body--noscroll');		
 		}
-	}
+	};
 
-	projectButton.addEventListener('click', toggleProject());
-	navItem.addEventListener('click', closeProject());
+	for(let x = 1; x < projectButtons.length; x++) {
+		projectButtons[x].addEventListener('click', toggleProject);
+	}
+	console.log(projectButtons);
+
+	for(let x = 0; x < navItems.length; x++) {
+		navItems[x].addEventListener('click', closeProject);
+	}
 }
 project();
