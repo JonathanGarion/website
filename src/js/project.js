@@ -7,19 +7,19 @@ let project = () => {
 	let navItems = document.getElementsByClassName('menu__item');
 		
 	let toggleProject = (event) => {	
-		if (event.toElement.parentNode.parentNode.classList.contains('project--open')) {
-			event.toElement.parentNode.parentNode.classList.replace('project--open', 'project--closed');
+		if (projectItem.classList.contains('project--open')) {
+			projectItem.classList.replace('project--open', 'project--closed');
 			body.classList.remove('body--noscroll');
-		} else if (event.toElement.parentNode.parentNode.classList.contains('project--closed')) {
-			event.toElement.parentNode.parentNode.classList.replace('project--closed', 'project--open');
+		} else if (projectItem.classList.contains('project--closed')) {
+			projectItem.classList.replace('project--closed', 'project--open');
 			body.classList.add('body--noscroll');
 		}
 	};
 	
 	let closeProject = (event) => {
 		console.log('closeProject');
-		if (event.toElement.parentNode.parentNode.parentNode.classList.contains('project--open')) {
-			event.toElement.parentNode.parentNode.parentNode.classList.replace('project--open', 'project--closed');
+		if (projectItem.parentNode.classList.contains('project--open')) {
+			projectItem.parentNode.classList.replace('project--open', 'project--closed');
 			body.classList.remove('body--noscroll');		
 		}
 	};

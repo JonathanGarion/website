@@ -77,7 +77,8 @@ html {
     right: -65px;
     display: flex;
     align-items: flex-end;
-    justify-content: center; }
+    justify-content: center;
+    cursor: pointer; }
     .header--close .header__corner:hover {
       color: #FF1F6D; }
   .header--close .header__close-button {
