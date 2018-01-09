@@ -1,49 +1,42 @@
-// get anchor classes 
-// get navigation elements 
-// get y pos of anchors 
-// onclick jump to y pos 
-
 let navigation = () => {
-	let projectAnchor = document.getElementsByClassName('projects');
-	let aboutAnchor = document.getElementsByClassName('about-container');
-	let blogAnchor = document.getElementsByClassName('blogs');
 	let navItems = document.getElementsByClassName('menu__item');
+	let projectSection = document.querySelector('.projects');
+	// let blogSection = document.querySelector('.blogs');
+	
+	let homeButton = document.getElementsByClassName('emblem');
+	let aboutButton = document.getElementsByClassName('about-button');
+	let projectButton = document.getElementsByClassName('project-button');
+	let blogButton = document.getElementsByClassName('blog-button');
 
+	let aboutAnchor = window.innerHeight;
+	let projectAnchor = projectSection.getBoundingClientRect();
+	// let blogAnchor = blogsection.getBoundingClientRect();
+	
+	let scrollToHome = (event) => {
+		scrollTo(0, 0);
+	};
+	let scrollToAbout = (event) => {
+		scrollTo(0, aboutAnchor);
+	};
+	let scrollToProject = (event) => {
+		scrollTo(0, projectAnchor.top);
+	};
+	// let scrollToBlog = (event) => {
+	// 	scrollTo(0, blogAnchor.top);
+	// };
+
+
+	for(let x = 0; x < homeButton.length; x++) {
+		homeButton[x].addEventListener('click', scrollToHome);
+	}
+	for(let x = 0; x < aboutButton.length; x++) {
+		aboutButton[x].addEventListener('click', scrollToAbout);
+	}
+	for(let x = 0; x < projectButton.length; x++) {
+		projectButton[x].addEventListener('click', scrollToProject);
+	}
+	// for(let x = 0; x < blogButton.length; x++) {
+	// 	blogButton[x].addEventListener('click', scrollToAboutBlog);
+	// }
 }
 navigation();
-
-
-
-
-
-
-
-
-
-// document.getElementsByClassName('home__block--button')[0].addEventListener('click', function() {
-// 	var SCROLL_SPEED = 11;
-// 	var scrollHorizontal = true;
-// 	var i;
-// 	var scrollDistance = window.innerWidth;
-
-// 	if (window.innerWidth > window.innerHeight) {
-// 		i = window.scrollX ? window.scrollX : document.documentElement.scrollLeft;
-// 	} else {
-// 		scrollHorizontal = false;
-// 		scrollDistance = window.innerHeight;
-// 		i = window.scrollY ? window.scrollY : document.documentElement.scrollTop;
-// 	}
-
-// 	var interval = window.setInterval( function() {
-// 		if( scrollHorizontal ) {
-// 			window.scrollTo(i, 0);
-// 		} else {
-// 			window.scrollTo(0, i);
-// 		}
-
-// 		i = Math.min(i + SCROLL_SPEED, scrollDistance + SCROLL_SPEED);
-// 		if( i >= scrollDistance + SCROLL_SPEED ){
-// 			window.clearInterval(interval);
-// 		}
-// 	}, 1);
-// });
