@@ -19,5 +19,6 @@
 		<?php require_once'build/sections/footer.php' ?>
 		<script src="build/js/main.js"></script>
 		<script src="build/js/project.js"></script>
+		<script src="build/js/navigation.js"></script>
 	</body>
 </html>
