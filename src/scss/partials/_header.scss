@@ -1,12 +1,20 @@
 .header {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
 	width: 100%;
 	position: sticky;
 	overflow: hidden;
     top: 0;
-    z-index: 1;
+	z-index: 1;
+	
+	@include mq('phone-wide'){
+		background-color: $white;
+
+		&--desktop {
+			display: none;
+		}
+	}
 
 	.emblem {
 		@include poppins;
@@ -93,6 +101,126 @@
 		}
 		@include mq('phone-wide'){
 			display: none;
+		}
+	}
+
+}
+.header-mobile {
+	display: none;
+	
+	@include mq('phone-wide'){
+		display: flex;
+		flex-wrap: wrap;
+		position: sticky;
+		overflow: hidden;
+		top: 0;
+		z-index: 10;
+
+		.header {
+			position: static;
+		}
+
+		.header__list, .header__link-container {
+			display: none;
+		}
+
+		.header-menu__button {
+			display: flex;
+			height: 5px;
+			width: 35px;
+			background-color: $pink;
+			margin-right: 24px;
+			position: relative;
+			
+			&:before, &:after {
+				display: block;
+				height: 5px;
+				width: 35px;
+				background-color: $pink;
+				content: "";
+				position: absolute;
+
+			}
+			&:before {
+				top: -200%;
+			}
+			&:after {
+				bottom: -200%;
+			}
+		}
+	}
+
+	&--open {
+		display: none;
+
+		@include mq('phone-wide'){
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			position: fixed;
+			width: 100vw;
+			height: 90vh;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: $grey;
+			
+			.header {
+				background-color: $grey;
+				height: 81px;
+				position: static;
+
+				&__list {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+				}
+				&__list-item {
+					color: $white;
+					font-size: 25px;
+					line-height: 53px;
+					text-transform: uppercase;
+					@include pop-semi-bold;
+				}
+				&__link-container {
+					padding: 0 0 30px;
+					display: block;
+				}
+				&__title {
+					font-size: 16px;
+					line-height: 22px;
+					color: $white;
+					text-transform: uppercase;
+					@include pop-semi-bold;
+				}
+				&__link-list {
+					display: flex;
+					justify-content: space-around;
+					padding-top: 10px;
+
+					.fa {
+						font-size: 32px;
+						color: $white;
+					}
+				}
+			}
+			.emblem {
+				color: $white;
+			}
+			.header-menu__button {
+				background-color: $white;
+				transform: rotate(-45deg);
+				
+				&:before, &:after {
+					background-color: $white;
+					transform: rotate(90deg);
+					top: 0;
+					bottom: 0;
+				}
+			}
 		}
 	}
 }

@@ -7,6 +7,9 @@ let navigation = () => {
 	let aboutButton = document.getElementsByClassName('about-button');
 	let projectButton = document.getElementsByClassName('project-button');
 	let blogButton = document.getElementsByClassName('blog-button');
+	let menuButton = document.querySelector('.header-menu__button');
+	let header = document.querySelector('.header-mobile');
+	let navigation = document.querySelector('.navigation');
 
 	let aboutAnchor = window.innerHeight;
 	let projectAnchor = projectSection.getBoundingClientRect();
@@ -38,5 +41,21 @@ let navigation = () => {
 	// for(let x = 0; x < blogButton.length; x++) {
 	// 	blogButton[x].addEventListener('click', scrollToAboutBlog);
 	// }
+
+	let toggleMenu = (event) => {
+		header.classList.toggle('header-mobile--open');
+	};
+	menuButton.addEventListener('click', toggleMenu);
+
+	let navigationPosition = () => {
+		if (window.pageYOffset > (window.innerHeight + 163) ) {
+			navigation.classList.add('navigation--fixed');
+		}
+		else {
+			navigation.classList.remove('navigation--fixed');
+		}
+	}
+	window.addEventListener('scroll', navigationPosition);
+
 }
 navigation();

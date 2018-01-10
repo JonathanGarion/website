@@ -11,6 +11,11 @@
 		background-color: $white;
 		padding: 20px;
 		margin: 20px 0 40px;
+
+		@include mq('phone-wide'){
+			width: 100%;
+			margin: 0;
+		}		
 	}
 	&__title {
 		@include pop-semi-bold;
@@ -52,7 +57,7 @@
 	}
 
 	@include mq('phone-wide'){
-		padding-top: 100vh;
+		padding-top: 85vh;
 		background-position: center;
 	}
 }

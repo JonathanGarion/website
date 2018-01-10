@@ -4,12 +4,19 @@
 	top: 50%;
 	transform: translateY(-50%);
 	right: 0;
+	// left: 100%;
+	// width: 18px;
 	margin: 40px;
 
+	&--fixed {
+		position: fixed;
+	}
+
 	&--bottom {
+		display: flex;
+		right: 0;
 		margin: 100px 0 20px;
 		position: unset;
-		display: flex;
 		justify-content: center;
 
 		.menu {
@@ -26,6 +33,15 @@
 			&__arrow {
 				display: none;
 			}
+		}
+
+		@include mq('phone-wide'){
+			display: flex;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 65vh;
+			z-index: 11;
 		}
 	}
 

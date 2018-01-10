@@ -1,9 +1,8 @@
 <section class="projects">
 	<h2 class="projects__title">projects</h2>
 	<ul class="projects-grid">
-		
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -37,12 +36,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -76,12 +75,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -115,12 +114,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -154,12 +153,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -193,12 +192,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -232,12 +231,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -271,12 +270,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -310,12 +309,12 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
 		<div class="project project--closed">
-			<header class="header header--white header--close">
+			<header class="header header--desktop header--white header--close">
 				<div class="emblem">J<span class="dot">.</span></div>
 				<div class="header__corner"><span class="header__close-button"></span></div>
 			</header>
@@ -349,14 +348,9 @@
 					<li class="project-list__item">JavaScript</li>
 				</ul>
 			</aside>
-			<nav class="navigation navigation--bottom">
+			<nav class="navigation--bottom">
 				<?php require'build/sections/navigation.php'?>
 			</nav>
 		</div>
-
-
 	</ul>
-	<nav class="navigation">
-		<?php require'build/sections/navigation.php'?>
-	</nav>
 </section>
