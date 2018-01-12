@@ -308,7 +308,8 @@ html {
   right: 0;
   margin: 40px; }
   .navigation--fixed {
-    position: fixed; }
+    position: fixed;
+    z-index: 1; }
   .navigation--bottom {
     display: flex;
     right: 0;
@@ -625,7 +626,7 @@ html {
   .project__description, .project__skills {
     width: 366px;
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 20px 20px 0;
     margin: 20px 0 40px; }
     @media only screen and (max-width: 479px) {
       .project__description, .project__skills {
@@ -648,7 +649,11 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    color: #2C2C2D; }
+    color: #2C2C2D;
+    padding-bottom: 20px; }
+    .project__text--link {
+      color: #FF1F6D;
+      text-decoration: underline !important; }
   .project .project-list {
     display: flex;
     flex-wrap: wrap;

@@ -12,9 +12,9 @@
 		<?php require_once'build/sections/home.php' ?>
 		<?php require'build/sections/header.php'?>
 		<?php require_once'build/sections/about.php' ?>
-		<?php /* require_once'build/sections/projects.php' */ ?>
+		<?php require_once'build/sections/projects.php' ?>
 		<?php /* require_once'build/sections/project.php' */ ?>
-		<?php require_once'build/sections/project-test.php' ?>
+		<?php /* require_once'build/sections/project-test.php' */ ?>
 		<?php /* require_once'build/sections/blogs.php' */ ?>
 		<?php require_once'build/sections/footer.php' ?>
 		<script src="build/js/main.js"></script>

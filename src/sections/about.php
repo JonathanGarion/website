@@ -7,6 +7,8 @@
 		<section class="about__section">
 			<h3 class="about__title">my story</h3>
 			<p class="about__text">
+				My name is Jonathan Kerkhoven. I'm a Front-End developer and scrum master. 
+				
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec elit
 				efficitur nibh pellentesque rhoncus. Sed condimentum hendrerit eleifend.
 				Mauris ut fermentum sapien. Curabitur ex odio, congue sodales tempus
@@ -37,8 +39,8 @@
 			<div class="aside__container">
 				<h3 class="aside__title">let's connect</h3>
 				<ul class="aside-link-list">
-					<li class="aside-link-list__item"><a href="https://github.com/JonathanGarion"><i class="fa fa-github-alt"></a></i></li>
-					<li class="aside-link-list__item"><a href="https://www.linkedin.com/in/jonathan-kerkhoven-26683bab/"><i class="fa fa-linkedin-square"></i></a></li>
+					<li class="aside-link-list__item"><a href="https://github.com/JonathanGarion"  target="_blank"><i class="fa fa-github-alt"></a></i></li>
+					<li class="aside-link-list__item"><a href="https://www.linkedin.com/in/jonathan-kerkhoven-26683bab/"  target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
 				</ul>
 			</div>
 		</aside>

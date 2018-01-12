@@ -9,7 +9,7 @@
 	&__description, &__skills{
 		width: 366px;
 		background-color: $white;
-		padding: 20px;
+		padding: 20px 20px 0;
 		margin: 20px 0 40px;
 
 		@include mq('phone-wide'){
@@ -30,6 +30,12 @@
 		font-size: 16px;
 		line-height: 23px;
 		color: $grey;
+		padding-bottom: 20px;
+
+		&--link {
+			color: $pink;
+			text-decoration: underline !important;
+		}
 	}
 
 	.project-list {

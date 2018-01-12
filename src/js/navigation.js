@@ -1,5 +1,6 @@
 let navigation = () => {
 	let navItems = document.getElementsByClassName('menu__item');
+	let aboutSection = document.querySelector('.about-container');
 	let projectSection = document.querySelector('.projects');
 	// let blogSection = document.querySelector('.blogs');
 	
@@ -12,8 +13,8 @@ let navigation = () => {
 	let navigation = document.querySelector('.navigation');
 
 	let aboutAnchor = window.innerHeight;
-	let projectAnchor = projectSection.getBoundingClientRect();
-	// let blogAnchor = blogsection.getBoundingClientRect();
+	let projectAnchor = (window.innerHeight + aboutSection.getBoundingClientRect().height);
+	// let blogAnchor = (projectAnchor + projectSection.getBoundingClientRect().height);
 	
 	let scrollToHome = (event) => {
 		scrollTo(0, 0);
@@ -22,7 +23,7 @@ let navigation = () => {
 		scrollTo(0, aboutAnchor);
 	};
 	let scrollToProject = (event) => {
-		scrollTo(0, projectAnchor.top);
+		scrollTo(0, projectAnchor);
 	};
 	// let scrollToBlog = (event) => {
 	// 	scrollTo(0, blogAnchor.top);
