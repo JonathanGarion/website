@@ -8,17 +8,20 @@
 		
 	let toggleProject = (project) => {	
 		if (project.classList.contains('project--open')) {
-			project.classList.replace('project--open', 'project--closed');
+			project.classList.remove('project--open');
+			project.classList.add('project--closed');
 			body.classList.remove('body--noscroll');
 		} else if (project.classList.contains('project--closed')) {
-			project.classList.replace('project--closed', 'project--open');
+			project.classList.remove('project--closed');
+			project.classList.add('project--open');
 			body.classList.add('body--noscroll');
 		}
 	};
 	
 	let closeProject = (project) => {
 		for(let x = 0; x < projectItems.length; x++) {
-			projectItems[x].classList.replace('project--open', 'project--closed')
+			projectItems[x].classList.remove('project--open')
+			projectItems[x].classList.add('project--closed')
 		}
 
 		body.classList.remove('body--noscroll');

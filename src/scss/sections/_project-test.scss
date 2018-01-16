@@ -24,16 +24,15 @@
 				transform: rotate(0deg);
 				width: 100%;
 				height: 100%;
-				top: unset;
-				right: unset;
+				top: 0;
+				right: 0;
 				align-items: center;
 				background-color: $pink;
 				z-index: 5;
 			}
 			.header__close-button {
-				height: unset;
+				height: 0;
 				&:before, &:after {
-					top: unset;
 					background-color: $white;
 				}
 			}
@@ -43,7 +42,7 @@
 		}
 
 		.project__description {
-			background-color: unset;
+			background-color: transparent;
 			width: 100%;
 			height: 100%;
 			padding: 0;
@@ -51,7 +50,7 @@
 		}
 		.project__title {
 			color: $white;
-			text-transform: unset;
+			text-transform: initial;
 			text-shadow: 2px 2px 2px #000;
 		}
 

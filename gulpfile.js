@@ -6,7 +6,7 @@ var runSequence = require('run-sequence');
 gulp.task('default', function() {
   runSequence(
       'clean',
-      ['copy','sass','watch']
+      ['copy','sass','babel','watch']
   );
 });
 
