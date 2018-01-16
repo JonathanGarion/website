@@ -29,6 +29,8 @@
 			text-transform: uppercase;
 			border: 3px $white solid;
 			margin: 0 55px;
+			cursor: pointer;
+			user-select: none;
 
 			&:hover {
 				color: $pink;

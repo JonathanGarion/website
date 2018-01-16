@@ -7,21 +7,15 @@
 		<section class="about__section">
 			<h3 class="about__title">my story</h3>
 			<p class="about__text">
-				My name is Jonathan Kerkhoven. I'm a Front-End developer and scrum master. 
-				
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec elit
-				efficitur nibh pellentesque rhoncus. Sed condimentum hendrerit eleifend.
-				Mauris ut fermentum sapien. Curabitur ex odio, congue sodales tempus
-				sit amet, aliquet id enim. Aenean porttitor libero ante, vel pellentesque
-				arcu laoreet ac. Suspendisse hendrerit vehicula malesuada. Mauris ac ex
-				eros. Proin molestie semper magna, vitae molestie massa malesuada vel.
-				Maecenas malesuada sollicitudin turpis at iaculis. Nam vitae libero elit.
-				Nam sit amet lacinia dui, finibus euismod dolor. Etiam eu elit nec dui
-				laoreet laoreet ac quis libero. In a consequat erat. Nam dignissim in est ac
-				varius.
-				Suspendisse venenatis lobortis massa eu dignissim. Ut tincidunt sapien
-				quis eros scelerisque scelerisque. Quisque dui est, elementum sed tortor
-				ac, imperdiet efficitur turpis. Vivamus vitae fringilla ante. Suspendisse in
+				My name is Jonathan Kerkhoven. 
+			</p>
+			<p class="about__text">
+				I'm a Front-End developer with experience as 
+				scrum master. My specialties are in styling 
+				and UX to make the most out of the user interaction 
+				of web applications. My preference lies in working 
+				with Sass and JavaScript, in order to get the 
+				best result in projects.
 			</p>
 		</section>
 		<aside class="aside">

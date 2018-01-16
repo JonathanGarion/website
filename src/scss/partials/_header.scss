@@ -65,7 +65,9 @@
 				color: $pink;
 			}
 		}
-
+		.emblem {
+			text-shadow: 2px 2px #000;
+		}
 		.header__close-button {
 			display: block;
 			position: relative;

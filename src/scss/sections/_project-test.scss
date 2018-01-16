@@ -52,6 +52,7 @@
 		.project__title {
 			color: $white;
 			text-transform: unset;
+			text-shadow: 2px 2px 2px #000;
 		}
 
 		.project__text {
@@ -83,5 +84,9 @@
 		width: 100%;
 		overflow-x: hidden;
 		overflow-y: scroll;
+
+		.project__description, .project__skills {
+			box-shadow: 3px 3px 3px #000;
+		}
 	}
 }

@@ -91,6 +91,8 @@ html {
     cursor: pointer; }
     .header--close .header__corner:hover {
       color: #FF1F6D; }
+  .header--close .emblem {
+    text-shadow: 2px 2px #000; }
   .header--close .header__close-button {
     display: block;
     position: relative;
@@ -424,7 +426,9 @@ html {
       letter-spacing: 2px;
       text-transform: uppercase;
       border: 3px #FFFFFF solid;
-      margin: 0 55px; }
+      margin: 0 55px;
+      cursor: pointer;
+      user-select: none; }
       .home .home-list__item:hover {
         color: #FF1F6D;
         background-color: #FFFFFF; }
@@ -623,6 +627,14 @@ html {
   background-size: cover;
   top: 0;
   left: 0; }
+  .project:nth-of-type(1) {
+    background-image: url("../img/backgrounds/project-ftsf.jpg"); }
+  .project:nth-of-type(2) {
+    background-image: url("../img/backgrounds/project-codepamoja.jpg"); }
+  .project:nth-of-type(3) {
+    background-image: url("../img/backgrounds/project-competa.jpg"); }
+  .project:nth-of-type(4) {
+    background-image: url("../img/backgrounds/project-webshop.jpg"); }
   .project__description, .project__skills {
     width: 366px;
     background-color: #FFFFFF;
@@ -721,7 +733,8 @@ html {
     margin: 0; }
   .project--closed .project__title {
     color: #FFFFFF;
-    text-transform: unset; }
+    text-transform: unset;
+    text-shadow: 2px 2px 2px #000; }
   .project--closed .project__text {
     display: none; }
   .project--closed .project__skills {
@@ -743,6 +756,8 @@ html {
   width: 100%;
   overflow-x: hidden;
   overflow-y: scroll; }
+  .project--open .project__description, .project--open .project__skills {
+    box-shadow: 3px 3px 3px #000; }
 
 /* Vendor */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
