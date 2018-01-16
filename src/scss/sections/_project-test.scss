@@ -67,7 +67,7 @@
 			}
 		}
 
-		&:hover {
+		&:hover, &:focus, &:active {
 			.header {
 				display: flex;
 			}

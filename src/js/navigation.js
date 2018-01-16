@@ -26,7 +26,7 @@ let navigation = () => {
 		scrollTo(0, projectAnchor);
 	};
 	// let scrollToBlog = (event) => {
-	// 	scrollTo(0, blogAnchor.top);
+	// 	scrollTo(0, blogAnchor);
 	// };
 
 
