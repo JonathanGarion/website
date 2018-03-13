@@ -6,7 +6,7 @@
 			<aside class="project__description">
 				<h3 class="project__title">Competa Website</h3>
 				<p class="project__text">
-					When reworking the <a class="project__text--link" href="www.competa.com" target="_blank">Competa website</a>
+					When reworking the <a class="project__text--link" href="http://www.competa.com" target="_blank">Competa website</a>
 					, I was responsible for converting the design into a theme that was WordPress compatible.
 					Browser compatibility, user experience and responsiveness had a high priority.
 				</p>

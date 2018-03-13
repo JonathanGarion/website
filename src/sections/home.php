@@ -5,6 +5,6 @@
 		<ul class="home-list">
 			<li class="home-list__item about-button">about</li>
 			<li class="home-list__item project-button">projects</li>
-			<li class="home-list__item blog-button">blogs</li>
+			<!-- <li class="home-list__item blog-button">blogs</li> -->
 		</ul>
 </section>

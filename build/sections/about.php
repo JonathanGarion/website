@@ -26,14 +26,16 @@
 					<li class="aside-list__item">CSS</li>
 					<li class="aside-list__item">SASS</li>
 					<li class="aside-list__item">JavaScript</li>
+					<li class="aside-list__item">React</li>
 					<li class="aside-list__item">Grunt</li>
 					<li class="aside-list__item">Gulp</li>
+					<li class="aside-list__item">WebPack</li>
 				</ul>
 			</div>
 			<div class="aside__container">
 				<h3 class="aside__title">let's connect</h3>
 				<ul class="aside-link-list">
-					<li class="aside-link-list__item"><a href="https://github.com/JonathanGarion"  target="_blank"><i class="fa fa-github-alt"></a></i></li>
+					<li class="aside-link-list__item"><a href="https://github.com/JonathanGarion"  target="_blank"><i class="fa fa-github-alt"></i></a></li>
 					<li class="aside-link-list__item"><a href="https://www.linkedin.com/in/jonathan-kerkhoven-26683bab/"  target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
 				</ul>
 			</div>

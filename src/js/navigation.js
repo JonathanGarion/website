@@ -18,17 +18,20 @@ let navigation = () => {
 	
 	let scrollToHome = (event) => {
 		scrollTo(0, 0);
+		closeMenu();
 	};
 	let scrollToAbout = (event) => {
 		scrollTo(0, aboutAnchor);
+		closeMenu();
 	};
 	let scrollToProject = (event) => {
 		scrollTo(0, projectAnchor);
+		closeMenu();
 	};
 	// let scrollToBlog = (event) => {
 	// 	scrollTo(0, blogAnchor);
+	//	closeMenu();
 	// };
-
 
 	for(let x = 0; x < homeButton.length; x++) {
 		homeButton[x].addEventListener('click', scrollToHome);
@@ -42,6 +45,10 @@ let navigation = () => {
 	// for(let x = 0; x < blogButton.length; x++) {
 	// 	blogButton[x].addEventListener('click', scrollToAboutBlog);
 	// }
+
+	let closeMenu = (event) => {
+		header.classList.remove('header-mobile--open');
+	};
 
 	let toggleMenu = (event) => {
 		header.classList.toggle('header-mobile--open');

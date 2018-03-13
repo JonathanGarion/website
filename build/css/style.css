@@ -37,6 +37,7 @@ html {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  position: -webkit-sticky;
   position: sticky;
   overflow: hidden;
   top: 0;
@@ -635,6 +636,8 @@ html {
     background-image: url("../img/backgrounds/project-competa.jpg"); }
   .project:nth-of-type(4) {
     background-image: url("../img/backgrounds/project-webshop.jpg"); }
+  .project:nth-of-type(5) {
+    background-image: url("../img/backgrounds/project-headcount.JPG"); }
   .project__description, .project__skills {
     width: 366px;
     background-color: #FFFFFF;
@@ -643,11 +646,11 @@ html {
     @media only screen and (max-width: 479px) {
       .project__description, .project__skills {
         width: 100%;
-        margin: 0; } }
+        margin: -1px 0 0; } }
     @media only screen and (max-height: 479px) {
       .project__description, .project__skills {
         width: 100%;
-        margin: 0; } }
+        margin: -1px 0 0; } }
   .project__title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -742,7 +745,7 @@ html {
     display: none; }
     .project--closed .navigation--bottom {
       display: none; }
-  .project--closed:hover .header {
+  .project--closed:hover .header, .project--closed:focus .header, .project--closed:active .header {
     display: flex; }
 
 .project--open {
@@ -756,7 +759,7 @@ html {
   overflow-x: hidden;
   overflow-y: scroll; }
   .project--open .project__description, .project--open .project__skills {
-    box-shadow: 3px 3px 3px #000; }
+    box-shadow: 2px 0px 20px #000; }
 
 /* Vendor */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */

@@ -6,7 +6,7 @@
 			<aside class="project__description">
 				<h3 class="project__title">CodePamoja</h3>
 				<p class="project__text">
-					For <a class="project__text--link" href="www.codepamoja.com" target="_blank">
+					For <a class="project__text--link" href="http://www.codepamoja.com" target="_blank">
 					CodePamoja</a>, an initiative where Dutch and Kenyan developers
 					work together building software, I worked on creating their new website.
 					I was responsible for converting the design to templates, keeping into account the 

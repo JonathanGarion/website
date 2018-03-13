@@ -6,5 +6,6 @@
 		<?php require'build/sections/projects/competa.php' ?>
 		<?php /* require'build/sections/projects/office-dashboard.php' */ ?>
 		<?php require'build/sections/projects/ftsf-webshop.php' ?>
+		<?php require'build/sections/projects/headcount.php' ?>
 	</ul>
 </section>

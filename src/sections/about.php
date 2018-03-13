@@ -26,8 +26,10 @@
 					<li class="aside-list__item">CSS</li>
 					<li class="aside-list__item">SASS</li>
 					<li class="aside-list__item">JavaScript</li>
+					<li class="aside-list__item">React</li>
 					<li class="aside-list__item">Grunt</li>
 					<li class="aside-list__item">Gulp</li>
+					<li class="aside-list__item">WebPack</li>
 				</ul>
 			</div>
 			<div class="aside__container">

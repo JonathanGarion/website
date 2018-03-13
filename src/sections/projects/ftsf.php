@@ -6,7 +6,7 @@
 			<aside class="project__description">
 				<h3 class="project__title">Fairtrade Software Foundation website</h3>
 				<p class="project__text">
-					The <a class="project__text--link" href="www.ftsf.eu" target="_blank">
+					The <a class="project__text--link" href="http://www.ftsf.eu" target="_blank">
 					Fair Trade Software Foundation</a> was in need of an 
 					update. The new design utilized horizontal scrolling 
 					instead of vertical in order to simulate the progression 

@@ -1,7 +1,7 @@
 var gulp = require('gulp');
-const babel = require('gulp-babel');
+var babel = require('gulp-babel');
  
-gulp.task('default', () =>
+gulp.task('babel', () =>
     gulp.src('src/js/*.js')
         .pipe(babel({
             presets: ['env']
